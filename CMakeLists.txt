@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.22)
-project(ApprendreC__)
+project(ApprendreCPP)
 
 set(CMAKE_CXX_STANDARD 23)
 
 include_directories(includes)
 
-add_executable(ApprendreC__ main.cpp includes/Table.cpp includes/Table.h)
+add_executable(ApprendreCPP EnumMain.cpp includes/Table.cpp includes/Table.h includes/Enum.cpp includes/Enum.h)

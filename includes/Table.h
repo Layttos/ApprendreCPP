@@ -4,7 +4,6 @@
 
 #ifndef APPRENDREC___TABLE_H
 #define APPRENDREC___TABLE_H
-#include <iostream>
 
 
 class Table {

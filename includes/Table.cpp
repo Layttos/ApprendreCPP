@@ -5,6 +5,7 @@
 #include "Table.h"
 #include <iostream>
 
+
 Table::Table(const int table) : originalNumber(table) {
     for (int i = 0; i < 11; ++i) {
         tableArray[i] = originalNumber * i;
