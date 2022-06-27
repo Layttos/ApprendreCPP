@@ -14,17 +14,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ab03b0-bbd8-4a0c-a90d-9cf3d172eb76" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnumMain.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/Enum.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/Enum.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+    <list default="true" id="d9ab03b0-bbd8-4a0c-a90d-9cf3d172eb76" name="Changes" comment="Enum">
+      <change afterPath="$PROJECT_DIR$/src/InterfaceMain.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/Table.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/includes/Table.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/Table.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/Table.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TableMain.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnumMain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/EnumMain.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TableMain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/TableMain.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/Enum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/includes/Enum.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,18 +48,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CLionProjects\ApprendreC++\src" />
       <recent name="D:\CLionProjects\ApprendreC++\includes" />
     </key>
   </component>
@@ -90,8 +87,20 @@
       <workItem from="1656229872267" duration="1731000" />
       <workItem from="1656250336803" duration="410000" />
       <workItem from="1656250765237" duration="4434000" />
-      <workItem from="1656258512740" duration="3827000" />
+      <workItem from="1656258512740" duration="6318000" />
+      <workItem from="1656344537719" duration="1983000" />
+      <workItem from="1656346555029" duration="1241000" />
+      <workItem from="1656347813820" duration="1629000" />
+      <workItem from="1656355096643" duration="1000" />
     </task>
+    <task id="LOCAL-00001" summary="Enum">
+      <created>1656262391848</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656262391849</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,5 +116,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Enum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enum" />
   </component>
 </project>

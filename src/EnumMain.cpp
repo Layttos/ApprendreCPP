@@ -6,6 +6,7 @@
 int main() {
     Enum enumTest;
     enumTest.SetLevel("SEVERE text", SEVERE);
+    enumTest.SetLevel("OK text", OK);
     std::cout << enumTest.GetLevel("SEVERE text") << std::endl;
     std::cout << enumTest.GetLevelAsString("SEVERE text") << std::endl;
 
@@ -14,5 +15,10 @@ int main() {
      * 3
      * SEVERE
      */
+
+    enumTest.Delete("SEVERE text");
+    std::cout << enumTest.GetLevelAsString("SEVERE text") << std::endl;
+    std::cout << enumTest.GetLevelAsString("OK text") << std::endl;
+
 
 }

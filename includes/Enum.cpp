@@ -6,6 +6,8 @@
 #include <map>
 #include <iostream>
 
+
+
 void Enum::SetLevel(std::string text, Level lvl) {
    if(list.find(text) == list.end()) {
        list[text] = lvl;
@@ -23,8 +25,11 @@ Level Enum::GetLevel(std::string text) {
     }
 }
 
+
+
 std::string Enum::GetLevelAsString(std::string text) {
     if(list.find(text) != list.end()) {
+
         switch(list[text]) {
             case LOW:
                 return "LOW";
